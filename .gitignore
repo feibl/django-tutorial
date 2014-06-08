@@ -55,3 +55,6 @@ docs/_build/
 # Settings File
 settings_development.py
 settings_deployment.py
+
+# Sqlite Db
+*.sqlite3
