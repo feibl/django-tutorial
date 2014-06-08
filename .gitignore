@@ -58,3 +58,6 @@ settings_deployment.py
 
 # Sqlite Db
 *.sqlite3
+
+# Vim
+*.swp
