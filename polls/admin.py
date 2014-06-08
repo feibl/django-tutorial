@@ -15,4 +15,7 @@ class QuestionAdmin(admin.ModelAdmin):
     ]
     inlines = [ChoiceInline]
 
+    # How the Question is displayed in the Overview
+    list_display = ('question_text', 'pub_date', 'was_published_recently')
+
 admin.site.register(Question, QuestionAdmin)
